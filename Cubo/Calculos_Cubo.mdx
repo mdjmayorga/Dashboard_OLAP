@@ -1,0 +1,161 @@
+/* =====================================================================
+   SCRIPT DE CALCULOS DEL CUBO "Terapia Fisica"
+
+   Donde va: Cube Designer -> pestana Calculations -> boton "Script View"
+   (icono de hoja con lineas). Reemplazar TODO el contenido por este
+   script (el CALCULATE; inicial es obligatorio y debe quedar primero).
+
+   Supone estos nombres (los de la guia):
+     Medidas fisicas : [Ingreso], [Duracion Total], [Cantidad Sesiones],
+                       [Pacientes Nuevos], [Pacientes Atendidos],
+                       [Cantidad Utilizada], [Costo Insumos], [Veces Usado],
+                       [Variedad Insumos]
+     Jerarquia tiempo: [Tiempo].[Calendario] con niveles
+                       [Anio] > [Trimestre] > [Mes] > [Fecha]
+   Si cambia algun nombre en el cubo, cambielo tambien aqui.
+   El ultimo comando NO lleva ";": Visual Studio lo agrega al guardar.
+   ===================================================================== */
+
+CALCULATE;
+
+/* ---------- Ingresos (escenarios ix y x) ---------- */
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Ingreso Promedio por Sesion] AS
+    IIF([Measures].[Cantidad Sesiones] = 0, NULL,
+        [Measures].[Ingreso] / [Measures].[Cantidad Sesiones]),
+    FORMAT_STRING = "#,##0.00",
+    VISIBLE = 1,
+    ASSOCIATED_MEASURE_GROUP = 'Sesiones';
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Duracion Promedio por Sesion] AS
+    IIF([Measures].[Cantidad Sesiones] = 0, NULL,
+        [Measures].[Duracion Total] / [Measures].[Cantidad Sesiones]),
+    FORMAT_STRING = "#,##0.0",
+    VISIBLE = 1,
+    ASSOCIATED_MEASURE_GROUP = 'Sesiones';
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Ingreso por Paciente] AS
+    IIF([Measures].[Pacientes Atendidos] = 0, NULL,
+        [Measures].[Ingreso] / [Measures].[Pacientes Atendidos]),
+    FORMAT_STRING = "#,##0.00",
+    VISIBLE = 1,
+    ASSOCIATED_MEASURE_GROUP = 'Sesiones';
+
+/* Ingreso menos costo de insumos: rentabilidad por servicio (escenario x) */
+CREATE MEMBER CURRENTCUBE.[Measures].[Margen Bruto] AS
+    [Measures].[Ingreso] - CoalesceEmpty([Measures].[Costo Insumos], 0),
+    FORMAT_STRING = "#,##0.00",
+    VISIBLE = 1,
+    ASSOCIATED_MEASURE_GROUP = 'Sesiones';
+
+CREATE MEMBER CURRENTCUBE.[Measures].[% Margen] AS
+    IIF([Measures].[Ingreso] = 0, NULL,
+        [Measures].[Margen Bruto] / [Measures].[Ingreso]),
+    FORMAT_STRING = "Percent",
+    VISIBLE = 1,
+    ASSOCIATED_MEASURE_GROUP = 'Sesiones';
+
+/* ---------- Pacientes (escenarios ii y iii) ---------- */
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Pacientes Recurrentes] AS
+    [Measures].[Pacientes Atendidos] - CoalesceEmpty([Measures].[Pacientes Nuevos], 0),
+    FORMAT_STRING = "#,##0",
+    VISIBLE = 1,
+    ASSOCIATED_MEASURE_GROUP = 'Sesiones';
+
+/* Periodo anterior del MISMO nivel: mes anterior, trimestre anterior o anio anterior */
+CREATE MEMBER CURRENTCUBE.[Measures].[Pacientes Periodo Anterior] AS
+    ([Measures].[Pacientes Atendidos], [Tiempo].[Calendario].CurrentMember.PrevMember),
+    FORMAT_STRING = "#,##0",
+    VISIBLE = 1,
+    ASSOCIATED_MEASURE_GROUP = 'Sesiones';
+
+CREATE MEMBER CURRENTCUBE.[Measures].[% Crecimiento Pacientes] AS
+    IIF(IsEmpty([Measures].[Pacientes Periodo Anterior])
+        OR [Measures].[Pacientes Periodo Anterior] = 0, NULL,
+        ([Measures].[Pacientes Atendidos] - [Measures].[Pacientes Periodo Anterior])
+        / [Measures].[Pacientes Periodo Anterior]),
+    FORMAT_STRING = "Percent",
+    VISIBLE = 1,
+    ASSOCIATED_MEASURE_GROUP = 'Sesiones';
+
+/* Mismo periodo del anio anterior (anio contra anio) */
+CREATE MEMBER CURRENTCUBE.[Measures].[Pacientes Anio Anterior] AS
+    ([Measures].[Pacientes Atendidos],
+     ParallelPeriod([Tiempo].[Calendario].[Anio], 1, [Tiempo].[Calendario].CurrentMember)),
+    FORMAT_STRING = "#,##0",
+    VISIBLE = 1,
+    ASSOCIATED_MEASURE_GROUP = 'Sesiones';
+
+CREATE MEMBER CURRENTCUBE.[Measures].[% Crecimiento Pacientes AA] AS
+    IIF(IsEmpty([Measures].[Pacientes Anio Anterior])
+        OR [Measures].[Pacientes Anio Anterior] = 0, NULL,
+        ([Measures].[Pacientes Atendidos] - [Measures].[Pacientes Anio Anterior])
+        / [Measures].[Pacientes Anio Anterior]),
+    FORMAT_STRING = "Percent",
+    VISIBLE = 1,
+    ASSOCIATED_MEASURE_GROUP = 'Sesiones';
+
+/* ---------- Tendencia de sesiones e ingresos (escenario xi) ---------- */
+
+CREATE MEMBER CURRENTCUBE.[Measures].[% Crecimiento Sesiones] AS
+    IIF(IsEmpty(([Measures].[Cantidad Sesiones], [Tiempo].[Calendario].CurrentMember.PrevMember))
+        OR ([Measures].[Cantidad Sesiones], [Tiempo].[Calendario].CurrentMember.PrevMember) = 0, NULL,
+        ([Measures].[Cantidad Sesiones]
+         - ([Measures].[Cantidad Sesiones], [Tiempo].[Calendario].CurrentMember.PrevMember))
+        / ([Measures].[Cantidad Sesiones], [Tiempo].[Calendario].CurrentMember.PrevMember)),
+    FORMAT_STRING = "Percent",
+    VISIBLE = 1,
+    ASSOCIATED_MEASURE_GROUP = 'Sesiones';
+
+CREATE MEMBER CURRENTCUBE.[Measures].[% Crecimiento Ingreso] AS
+    IIF(IsEmpty(([Measures].[Ingreso], [Tiempo].[Calendario].CurrentMember.PrevMember))
+        OR ([Measures].[Ingreso], [Tiempo].[Calendario].CurrentMember.PrevMember) = 0, NULL,
+        ([Measures].[Ingreso]
+         - ([Measures].[Ingreso], [Tiempo].[Calendario].CurrentMember.PrevMember))
+        / ([Measures].[Ingreso], [Tiempo].[Calendario].CurrentMember.PrevMember)),
+    FORMAT_STRING = "Percent",
+    VISIBLE = 1,
+    ASSOCIATED_MEASURE_GROUP = 'Sesiones';
+
+/* Ingreso acumulado del anio (Year To Date) */
+CREATE MEMBER CURRENTCUBE.[Measures].[Ingreso Acumulado Anio] AS
+    Aggregate(PeriodsToDate([Tiempo].[Calendario].[Anio],
+                            [Tiempo].[Calendario].CurrentMember),
+              [Measures].[Ingreso]),
+    FORMAT_STRING = "#,##0.00",
+    VISIBLE = 1,
+    ASSOCIATED_MEASURE_GROUP = 'Sesiones';
+
+/* ---------- Insumos (escenarios xv, xvi, xviii) ---------- */
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Costo Insumos por Sesion] AS
+    IIF([Measures].[Cantidad Sesiones] = 0, NULL,
+        [Measures].[Costo Insumos] / [Measures].[Cantidad Sesiones]),
+    FORMAT_STRING = "#,##0.00",
+    VISIBLE = 1,
+    ASSOCIATED_MEASURE_GROUP = 'Uso Insumo';
+
+/* ---------- Conjuntos con nombre ---------- */
+
+/* Escenario viii: los 6 meses mas recientes con sesiones */
+CREATE DYNAMIC SET CURRENTCUBE.[Ultimos 6 Meses] AS
+    Tail(NonEmpty([Tiempo].[Calendario].[Mes].Members,
+                  [Measures].[Cantidad Sesiones]), 6);
+
+/* Escenario vi: servicios con mayor y menor demanda en el contexto actual */
+CREATE DYNAMIC SET CURRENTCUBE.[Top 5 Servicios] AS
+    TopCount([Servicio].[Servicio].[Servicio].Members, 5, [Measures].[Cantidad Sesiones]);
+
+CREATE DYNAMIC SET CURRENTCUBE.[Bottom 5 Servicios] AS
+    BottomCount(NonEmpty([Servicio].[Servicio].[Servicio].Members,
+                         [Measures].[Cantidad Sesiones]),
+                5, [Measures].[Cantidad Sesiones]);
+
+/* Escenario xvi: insumos mas y menos usados */
+CREATE DYNAMIC SET CURRENTCUBE.[Top 10 Insumos] AS
+    TopCount([Insumo].[Insumo].[Insumo].Members, 10, [Measures].[Veces Usado]);
+
+CREATE DYNAMIC SET CURRENTCUBE.[Bottom 10 Insumos] AS
+    BottomCount(NonEmpty([Insumo].[Insumo].[Insumo].Members, [Measures].[Veces Usado]),
+                10, [Measures].[Veces Usado])
