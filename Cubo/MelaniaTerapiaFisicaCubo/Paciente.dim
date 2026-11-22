@@ -1,11 +1,37 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="3fcbe940-0d62-4eec-bbbb-4926bd7a3db8" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="29c7fd20-18da-4a71-ba28-11380ec4a29a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Vw Dim Paciente</ID>
   <Name>Paciente</Name>
-  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1221" scrolltop="-4815" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="5482" y="13737" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vw_dim_paciente" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="4106" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00000a100000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_vw_dim_paciente" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
@@ -21,15 +47,15 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>0</Value>
+      <Value>-1221</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>0</Value>
+      <Value>-4815</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>0</Value>
+      <Value>20</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
@@ -39,36 +65,229 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
       <Value>100</Value>
     </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="133">
+            <Shape Id="Id Paciente" Expanded="false">
+              <Attributes>
+                <Attribute Id="Id Paciente" />
+                <Attribute Id="Grupo Etario" />
+                <Attribute Id="Sexo" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Distrito Key" Expanded="false">
+              <Attributes>
+                <Attribute Id="Distrito Key" />
+              </Attributes>
+              <Position x="191" y="20" />
+            </Shape>
+            <Shape Id="Canton Key" Expanded="false">
+              <Attributes>
+                <Attribute Id="Canton Key" />
+              </Attributes>
+              <Position x="362" y="20" />
+            </Shape>
+            <Shape Id="Provincia" Expanded="false">
+              <Attributes>
+                <Attribute Id="Provincia" />
+              </Attributes>
+              <Position x="533" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
   </Annotations>
-  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="9ebb24d2-c17b-4c08-befd-edb881072d69">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="e5c81b49-5328-45e3-8f02-76b0512824d5">
     <DataSourceViewID>DSV Terapia Fisica</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="4490da81-127e-48f3-a485-770620f2954d">
+  <ErrorConfiguration dwd:design-time-name="35ed4f26-d5aa-4df1-a1c8-56c55979f0f4">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="5a858954-18c0-4bc7-b7bc-6b364a80bdc9">
+    <Attribute dwd:design-time-name="0b5f0c00-7a12-4762-94a7-f550aac874d8">
       <ID>Id Paciente</ID>
-      <Name>Id Paciente</Name>
+      <Name>Paciente</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="87479f58-e864-440b-9bb7-4c6f2ce74412">
+        <KeyColumn dwd:design-time-name="733abdac-eb3b-4518-9124-26a68ccb51ad">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="1da0bdb6-b86a-44b4-8579-dab5c35c293f">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f264612d-857c-43de-adfd-0832b99a3260">
             <TableID>dbo_vw_dim_paciente</TableID>
             <ColumnID>id_paciente</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <NameColumn dwd:design-time-name="505cb38d-ca2a-43a0-a19c-4c96e71d7ceb">
+        <DataType>WChar</DataType>
+        <DataSize>150</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="244450f8-1571-4c21-8162-7fe5e0787c46">
+          <TableID>dbo_vw_dim_paciente</TableID>
+          <ColumnID>nombre</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="e0bfceaf-841d-4aee-896c-2ba08dc3bd20">
+          <AttributeID>Sexo</AttributeID>
+          <Name>Sexo</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0939ab8d-cfa6-49e9-89d7-20212bac3741">
+          <AttributeID>Grupo Etario</AttributeID>
+          <Name>Grupo Etario</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="dd8dc321-7237-4971-b2cb-ad7afd95eaf9">
+          <AttributeID>Distrito Key</AttributeID>
+          <Name>Distrito</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
+    <Attribute dwd:design-time-name="3fbbd14b-07e9-4be7-be6e-45e1e4d73f61">
+      <ID>Sexo</ID>
+      <Name>Sexo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a0215716-fe28-4919-8bbf-a8bb3b5b6e74">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6c80ea49-2c20-4955-b77e-f93c55ec90f9">
+            <TableID>dbo_vw_dim_paciente</TableID>
+            <ColumnID>sexo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2f5c0d38-22df-4b79-8ffa-aeabb6c96a2c">
+      <ID>Grupo Etario</ID>
+      <Name>Grupo Etario</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="25e9219a-ffaa-4b5c-b617-d7608e196321">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9fba4929-4a73-4941-b2ee-77b8cafa34c6">
+            <TableID>dbo_vw_dim_paciente</TableID>
+            <ColumnID>grupo_etario</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ce5cf254-8548-4d53-9b50-7cd493684106">
+      <ID>Provincia</ID>
+      <Name>Provincia</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d7e93f30-6904-4fbb-9aa1-3e09015eb5e5">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="74c32f4a-d49b-4137-b441-4bc3c8143f13">
+            <TableID>dbo_vw_dim_paciente</TableID>
+            <ColumnID>provincia</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="032f3ed3-b048-4f25-bc76-4598f941f991">
+      <ID>Canton Key</ID>
+      <Name>Canton</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="73d0d4ee-eb5d-40f2-bf26-9c40600c80e3">
+          <DataType>WChar</DataType>
+          <DataSize>203</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="96d23580-68b9-46ed-b1c0-35ffe2b353bd">
+            <TableID>dbo_vw_dim_paciente</TableID>
+            <ColumnID>canton_key</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="ad740d5d-3be4-429e-aea7-915b761c0d02">
+        <DataType>WChar</DataType>
+        <DataSize>100</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="6654a5d7-842e-4a43-a0a9-9c0506cd94af">
+          <TableID>dbo_vw_dim_paciente</TableID>
+          <ColumnID>canton</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="96fb7c32-aeaa-43d7-92b6-32c23fa6a5da">
+          <AttributeID>Provincia</AttributeID>
+          <Name>Provincia</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="321aa36f-2b89-4bcd-b694-a59923b0e938">
+      <ID>Distrito Key</ID>
+      <Name>Distrito</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="827569ad-2029-4180-92ec-240514826dfe">
+          <DataType>WChar</DataType>
+          <DataSize>306</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="448a0e3b-2d45-4a2d-8b4b-f01cbbf709f3">
+            <TableID>dbo_vw_dim_paciente</TableID>
+            <ColumnID>distrito_key</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="10aeaf10-f670-4c28-8966-b291c86e1325">
+        <DataType>WChar</DataType>
+        <DataSize>100</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="279dc835-b165-428b-a135-95b706ec05d9">
+          <TableID>dbo_vw_dim_paciente</TableID>
+          <ColumnID>distrito</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="3948198f-2c66-4149-b1d6-1cc401f18fef">
+          <AttributeID>Canton Key</AttributeID>
+          <Name>Canton</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
   </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="9fc0f730-7246-431f-9c12-b4c3d8e1642d">
+      <ID>Hierarchy</ID>
+      <Name>Geografía</Name>
+      <Levels>
+        <Level dwd:design-time-name="9c9f40a7-9554-44a1-a6e8-6ea1da77bee2">
+          <ID>Provincia</ID>
+          <Name>Provincia</Name>
+          <SourceAttributeID>Provincia</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="d0bbc979-d9a7-4528-960e-f009d564ab6b">
+          <ID>Canton</ID>
+          <Name>Canton</Name>
+          <SourceAttributeID>Canton Key</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="4fc2e76e-5e24-48a4-a190-b93eebffc93c">
+          <ID>Distrito</ID>
+          <Name>Distrito</Name>
+          <SourceAttributeID>Distrito Key</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="5beee4c5-bc83-44c2-ac4f-e97232b2b88c">
+          <ID>Paciente</ID>
+          <Name>Paciente</Name>
+          <SourceAttributeID>Id Paciente</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
   <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
 </Dimension>

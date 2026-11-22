@@ -1,39 +1,19 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="5426ec22-d5ff-4519-8bec-9ef3b413e35a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c124d48e-5006-4188-a472-b0c83a84c787" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Terapia Fisica</ID>
   <MeasureGroups>
     <MeasureGroup>
       <ID>Vw Fact Sesiones</ID>
       <Partitions>
-        <Partition dwd:design-time-name="2494eee9-c4b7-4da0-9182-2544939062aa">
+        <Partition dwd:design-time-name="93088937-db28-4175-b792-8a199f32f8d8">
           <ID>Vw Fact Sesiones</ID>
           <Name>Vw Fact Sesiones</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="122b5155-5284-4692-8fe8-e0dc661c349d">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ced835e0-d6c7-4f59-87c1-0c7f569997a5">
             <DataSourceViewID>DSV Terapia Fisica</DataSourceViewID>
             <TableID>dbo_vw_fact_sesiones</TableID>
-          </Source>
-          <StorageMode>Molap</StorageMode>
-          <CurrentStorageMode>Molap</CurrentStorageMode>
-          <ProcessingMode>Regular</ProcessingMode>
-        </Partition>
-      </Partitions>
-    </MeasureGroup>
-    <MeasureGroup>
-      <ID>Vw Fact Uso Insumo</ID>
-      <Partitions>
-        <Partition dwd:design-time-name="9a35bdb8-205b-45c6-8ded-42044cfd4e0a">
-          <ID>Vw Fact Uso Insumo</ID>
-          <Name>Vw Fact Uso Insumo</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-          <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="5252e641-5d8e-416e-b3cd-6e7bf69bd131">
-            <DataSourceViewID>DSV Terapia Fisica</DataSourceViewID>
-            <TableID>dbo_vw_fact_uso_insumo</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
@@ -44,36 +24,16 @@
     <MeasureGroup>
       <ID>Sesiones</ID>
       <Partitions>
-        <Partition dwd:design-time-name="aa36e019-d52b-47be-a85f-07c4213844ff">
+        <Partition dwd:design-time-name="418b4efe-120a-4aac-9099-8c5d291f4b02">
           <ID>Vw Fact Sesiones</ID>
           <Name>Vw Fact Sesiones</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="6c85125e-bf82-4335-9da3-979381a55b8d">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="5e7a7419-a311-41ae-9759-7bfb4b17ca05">
             <DataSourceViewID>DSV Terapia Fisica</DataSourceViewID>
             <TableID>dbo_vw_fact_sesiones</TableID>
-          </Source>
-          <StorageMode>Molap</StorageMode>
-          <CurrentStorageMode>Molap</CurrentStorageMode>
-          <ProcessingMode>Regular</ProcessingMode>
-        </Partition>
-      </Partitions>
-    </MeasureGroup>
-    <MeasureGroup>
-      <ID>Uso Insumo</ID>
-      <Partitions>
-        <Partition dwd:design-time-name="766d068b-a1b3-4151-ae62-56313806ae1f">
-          <ID>Vw Fact Uso Insumo</ID>
-          <Name>Vw Fact Uso Insumo</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-          <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="0465740a-319d-4f44-a817-ef5888f7ff4b">
-            <DataSourceViewID>DSV Terapia Fisica</DataSourceViewID>
-            <TableID>dbo_vw_fact_uso_insumo</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>

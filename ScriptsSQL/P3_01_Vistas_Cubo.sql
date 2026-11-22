@@ -1,5 +1,5 @@
 /* =====================================================================
-   PROYECTO 3 - PASO 2: VISTAS QUE ALIMENTAN EL CUBO (Data Source View)
+   PROYECTO 3 - PASO 1: VISTAS QUE ALIMENTAN EL CUBO (Data Source View)
 
    El cubo de Analysis Services se construye sobre estas vistas, no sobre
    las tablas directamente. Las vistas agregan lo que el DW no trae y que
@@ -14,7 +14,8 @@
        recurrentes (escenario iii).
      - Atributo periodo_reciente: "Ultimos 6 meses" (escenario viii).
 
-   Correr DESPUES de P3_01_DW_Insumos.sql. Se puede ejecutar varias veces.
+   Requiere el DW del Proyecto 2 ya cargado (fact_sessions con datos).
+   Se puede ejecutar varias veces.
    ===================================================================== */
 
 USE DW_TerapiaFisica;
@@ -119,20 +120,6 @@ FROM dbo.dim_servicio AS s;
 GO
 
 /* ---------------------------------------------------------------------
-   DIMENSION INSUMO
-   --------------------------------------------------------------------- */
-CREATE OR ALTER VIEW dbo.vw_dim_insumo
-AS
-SELECT
-    i.id_insumo,
-    i.nombre,
-    i.tipo,
-    i.unidad_medida,
-    i.costo_unitario
-FROM dbo.dim_insumo AS i;
-GO
-
-/* ---------------------------------------------------------------------
    HECHOS: SESIONES
    es_primera_sesion = 1 en la primera sesion historica de cada paciente.
    Sumada en un periodo da los "pacientes nuevos" de ese periodo.
@@ -153,23 +140,6 @@ SELECT
         THEN 1 ELSE 0
     END AS es_primera_sesion
 FROM dbo.fact_sessions AS f;
-GO
-
-/* ---------------------------------------------------------------------
-   HECHOS: USO DE INSUMOS (tabla puente)
-   --------------------------------------------------------------------- */
-CREATE OR ALTER VIEW dbo.vw_fact_uso_insumo
-AS
-SELECT
-    b.id_session,
-    b.id_insumo,
-    b.id_servicio,
-    b.id_tiempo,
-    b.id_paciente,
-    b.cantidad_utilizada,
-    b.factor_distribucion,
-    b.costo_registrado
-FROM dbo.bridge_sesion_insumo AS b;
 GO
 
 /* ---------------------------------------------------------------------

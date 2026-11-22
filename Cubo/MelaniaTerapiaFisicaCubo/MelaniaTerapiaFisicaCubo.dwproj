@@ -31,10 +31,6 @@
       <Name>Servicio.dim</Name>
       <FullPath>Servicio.dim</FullPath>
     </ProjectItem>
-    <ProjectItem>
-      <Name>Insumo.dim</Name>
-      <FullPath>Insumo.dim</FullPath>
-    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>

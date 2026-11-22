@@ -1,14 +1,14 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e5692d72-3797-4851-a523-9127893bbf7e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="feb8139d-7a81-4828-a331-82008f9fe70c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Terapia Fisica</ID>
   <Name>Terapia Fisica</Name>
-  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="14" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4187" scrolltop="-34" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="79" x="19346" y="12319" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="16" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="2133" scrolltop="-2341" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="69" x="24807" y="17568" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
             </font>
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vw_fact_sesiones" left="11911" top="6507" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3620" height="3387" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vw_fact_sesiones" left="11911" top="6507" logicalid="8" controlid="1" masterid="0" hint1="0" hint2="0" width="3620" height="3387" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000240e00003b0d0000" />
             </control>
@@ -30,7 +30,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vw_dim_paciente" left="12221" top="1" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="4106" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vw_dim_paciente" left="12221" top="1" logicalid="9" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="4106" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00000a100000" />
             </control>
@@ -41,7 +41,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vw_dim_tiempo" left="5955" top="5701" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3556" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vw_dim_tiempo" left="5955" top="5701" logicalid="10" controlid="3" masterid="0" hint1="0" hint2="0" width="3556" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000e40d000088130000" />
             </control>
@@ -52,7 +52,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vw_dim_servicio" left="12080" top="12294" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="3281" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vw_dim_servicio" left="12080" top="12294" logicalid="11" controlid="4" masterid="0" hint1="0" hint2="0" width="3281" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000d10c00006b0a0000" />
             </control>
@@ -63,29 +63,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vw_fact_uso_insumo" left="20" top="5607" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="3535" height="3747" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobjectstreaminitwrapper binary="000e0000cf0d0000a30e0000" />
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="dbo_vw_fact_uso_insumo" vartype="8" />
-              </ddsxmlobj>
-            </layoutobject>
-            <shape groupshapeid="0" groupnode="0" />
-          </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vw_dim_insumo" left="221" top="11754" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="3133" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobjectstreaminitwrapper binary="000e00003d0c00006b0a0000" />
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="dbo_vw_dim_insumo" vartype="8" />
-              </ddsxmlobj>
-            </layoutobject>
-            <shape groupshapeid="0" groupnode="0" />
-          </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="9211" top="7802" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="9211" top="7802" logicalid="12" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -105,7 +83,7 @@
               <point x="11911" y="8200" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="13322" top="3608" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="13322" top="3608" logicalid="13" controlid="6" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -123,7 +101,7 @@
               <point x="13721" y="6507" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="13321" top="9594" logicalid="9" controlid="9" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="13321" top="9594" logicalid="14" controlid="7" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -143,84 +121,6 @@
               <point x="13721" y="9894" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3255" top="1655" logicalid="10" controlid="10" masterid="0" hint1="0" hint2="0" width="9266" height="4475" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobj>
-                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-              </ddsxmlobj>
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="dataSet.Relations[vw_fact_uso_insumo-vw_dim_paciente]" vartype="8" />
-                <property name="Virtual" value="0" vartype="11" />
-                <property name="VisibleAP" value="0" vartype="3" />
-              </ddsxmlobj>
-            </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="5" sourceattachpoint="16" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="12221" y="2054" />
-              <point x="7888" y="2054" />
-              <point x="7888" y="5830" />
-              <point x="3555" y="5830" />
-            </connector>
-          </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3255" top="7180" logicalid="11" controlid="11" masterid="0" hint1="0" hint2="0" width="3000" height="1421" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobj>
-                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-              </ddsxmlobj>
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="dataSet.Relations[vw_fact_uso_insumo-vw_dim_tiempo]" vartype="8" />
-                <property name="Virtual" value="0" vartype="11" />
-                <property name="VisibleAP" value="0" vartype="3" />
-              </ddsxmlobj>
-            </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="5" sourceattachpoint="22" destattachpoint="21" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="5955" y="8201" />
-              <point x="4755" y="8201" />
-              <point x="4755" y="7480" />
-              <point x="3555" y="7480" />
-            </connector>
-          </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3255" top="8830" logicalid="12" controlid="12" masterid="0" hint1="0" hint2="0" width="9125" height="5197" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobj>
-                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-              </ddsxmlobj>
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="dataSet.Relations[vw_fact_uso_insumo-vw_dim_servicio]" vartype="8" />
-                <property name="Virtual" value="0" vartype="11" />
-                <property name="VisibleAP" value="0" vartype="3" />
-              </ddsxmlobj>
-            </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="5" sourceattachpoint="14" destattachpoint="27" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="12080" y="13627" />
-              <point x="7818" y="13627" />
-              <point x="7818" y="9130" />
-              <point x="3555" y="9130" />
-            </connector>
-          </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="1388" top="9054" logicalid="13" controlid="13" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobj>
-                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-              </ddsxmlobj>
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="dataSet.Relations[vw_fact_uso_insumo-vw_dim_insumo]" vartype="8" />
-                <property name="Virtual" value="0" vartype="11" />
-                <property name="VisibleAP" value="0" vartype="3" />
-              </ddsxmlobj>
-            </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="5" sourceattachpoint="4" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="1787" y="11754" />
-              <point x="1787" y="9354" />
-            </connector>
-          </ddscontrol>
         </dds>
       </Value>
     </Annotation>
@@ -238,15 +138,15 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>-4187</Value>
+      <Value>2133</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-34</Value>
+      <Value>-2341</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>20</Value>
+      <Value>5955</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
@@ -254,120 +154,176 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
-      <Value>79</Value>
+      <Value>69</Value>
     </Annotation>
   </Annotations>
-  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Dimensions>
-    <Dimension dwd:design-time-name="ed87e045-5b4c-494e-850a-05575757bd0c">
+    <Dimension dwd:design-time-name="7e00dd79-f7f3-480e-bab8-6032b98f6ab4">
       <ID>Vw Dim Tiempo</ID>
       <Name>Tiempo</Name>
       <DimensionID>Vw Dim Tiempo</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="cc1ba434-01e1-4e41-8008-0eb3a9cdd500">
+        <Attribute dwd:design-time-name="2c7c2d8f-5fb4-4b1e-855a-d2841131e1fb">
           <AttributeID>Id Tiempo</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="06b7e484-b877-43a5-aba0-d45c3b378e3f">
+          <AttributeID>Mes Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0010cd53-f9ea-4ba5-bfcd-024879253a62">
+          <AttributeID>Trimestre Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="22ef61e3-6159-4be9-b5c0-bda6b0d1d791">
+          <AttributeID>Anio Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2e620ac8-3ecd-4184-9d2d-27d77c9e9c7c">
+          <AttributeID>Mes Numero</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="270aca38-fcf6-4c3d-a28b-07867fe24159">
+          <AttributeID>Trimestre Numero</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="510cfa69-1b36-4227-96ee-fbbd1958ed6e">
+          <AttributeID>Semana Numero</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b83928fc-2376-4077-8092-e8f48cb41a8f">
+          <AttributeID>Periodo Reciente</AttributeID>
+        </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="d2ad7260-597f-4cc5-9dc3-abeee3563b57">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="2a404419-896c-4ed8-9ba8-cb3144e92cb7">
+    <Dimension dwd:design-time-name="cf4e8ce1-b311-4ec9-b45e-16a4fce40cfb">
       <ID>Vw Dim Paciente</ID>
       <Name>Paciente</Name>
       <DimensionID>Vw Dim Paciente</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="4f1bb331-ec94-4b70-9d5a-1b23b8ed54ee">
+        <Attribute dwd:design-time-name="be98bdc7-3585-4476-af52-a899f69822ab">
           <AttributeID>Id Paciente</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="4944324e-2bb0-4eac-9154-9f82b85c3e7f">
+          <AttributeID>Sexo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0082e83c-50f8-4f2e-827e-5b430553e3a2">
+          <AttributeID>Grupo Etario</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="05b89019-f64f-42ef-804a-e242e703f08b">
+          <AttributeID>Provincia</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7cdbc9ea-6085-4f72-91e8-daf1eb5d78b8">
+          <AttributeID>Canton Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="06d0d388-ae67-4dfa-82ff-cf581f0102fb">
+          <AttributeID>Distrito Key</AttributeID>
+        </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="4e10896b-58d1-4cb1-9d09-c1019a957111">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="8ebea90e-a683-4119-bdf3-a1c1279dfd26">
+    <Dimension dwd:design-time-name="5b6a0d3c-cc31-447e-b6f8-b86e0d3e6033">
       <ID>Vw Dim Servicio</ID>
       <Name>Servicio</Name>
       <DimensionID>Vw Dim Servicio</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="e5ddb4c7-cdd9-4d7a-9caa-c07fafc479e3">
+        <Attribute dwd:design-time-name="e5b375d7-cc66-41c0-9e3c-a407854856bb">
           <AttributeID>Id Servicio</AttributeID>
         </Attribute>
-      </Attributes>
-    </Dimension>
-    <Dimension dwd:design-time-name="409bec1b-4a74-4a31-91c0-f8723f9943c0">
-      <ID>Vw Dim Insumo</ID>
-      <Name>Insumo</Name>
-      <DimensionID>Vw Dim Insumo</DimensionID>
-      <Attributes>
-        <Attribute dwd:design-time-name="ee8bcf3f-7777-4840-8f30-2920e390e82f">
-          <AttributeID>Id Insumo</AttributeID>
+        <Attribute dwd:design-time-name="78655912-ba4f-427e-920d-ef218cd052a0">
+          <AttributeID>Tipo Servicio</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1e850d9e-5250-4634-a6e6-0c0f15902fb1">
+          <AttributeID>Precio Base</AttributeID>
+          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+        </Attribute>
+        <Attribute dwd:design-time-name="523aa901-b30b-4b38-9baa-70378a794e86">
+          <AttributeID>Descripcion</AttributeID>
+          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="65473cbe-23c8-4f79-b04e-0fe0541df562">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="2e9f527c-267c-42a0-aa23-c98169a2a6a0">
+    <MeasureGroup dwd:design-time-name="5808fe27-f96e-479a-b180-531eadf6e09b">
       <ID>Vw Fact Sesiones</ID>
       <Name>Sesiones</Name>
-      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="9d069532-8e73-4669-91c4-c3d6fb4ea534">
+        <Measure dwd:design-time-name="f3cf7ed1-8a0b-4f33-be7b-b2db6ae441b0">
           <ID>Monto Ingreso</ID>
           <Name>Ingreso</Name>
-          <Source dwd:design-time-name="2ffea128-2513-4e47-adff-8d09d3a0385c">
+          <Source dwd:design-time-name="bce5ec5d-a20b-4f46-82c9-df8d7fe51f75">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="5bb5b285-e10b-4a5a-a88d-e7dfd40eeead">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="2cc92c37-1088-4628-bfc7-8966e7a56b19">
               <TableID>dbo_vw_fact_sesiones</TableID>
               <ColumnID>monto_ingreso</ColumnID>
             </Source>
           </Source>
+          <FormatString>#,##0.00</FormatString>
         </Measure>
-        <Measure dwd:design-time-name="72b97dc3-48dd-4822-a885-021f331d8ae8">
+        <Measure dwd:design-time-name="33408220-2e1a-4b74-9b9f-758a39c1d2b1">
           <ID>Duracion Sesion</ID>
           <Name>Duracion Total</Name>
-          <Source dwd:design-time-name="eb48abe3-e1c9-4655-ac89-d8996e5e6e7c">
+          <Source dwd:design-time-name="fb1feaed-4874-4129-8e98-1b60260f7dad">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="5ff03fa2-60b7-4391-bf57-31a142e54dbf">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b397fe16-adab-4d84-8707-b918f5eaa253">
               <TableID>dbo_vw_fact_sesiones</TableID>
               <ColumnID>duracion_sesion</ColumnID>
             </Source>
           </Source>
+          <FormatString>#,##0</FormatString>
         </Measure>
-        <Measure dwd:design-time-name="2590047e-f0d0-4e7b-a5ae-f4478143ba19">
+        <Measure dwd:design-time-name="87fe5c13-c5b3-4d13-87ab-c0e4e93efd92">
           <ID>Es Primera Sesion</ID>
           <Name>Pacientes Nuevos</Name>
-          <Source dwd:design-time-name="75b449a6-5e90-437a-a4bb-0ca1c683ed44">
+          <Source dwd:design-time-name="79c86f57-e6f4-4cfe-b89d-2e7e4fbe3c3f">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="926803c6-2172-4490-88d1-99dbe7c423e5">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="909ed02f-761e-45e1-80a2-3c9a973246f5">
               <TableID>dbo_vw_fact_sesiones</TableID>
               <ColumnID>es_primera_sesion</ColumnID>
             </Source>
           </Source>
+          <FormatString>#,##0</FormatString>
         </Measure>
-        <Measure dwd:design-time-name="a77ceb35-c636-4d2d-903f-fd65538c909c">
+        <Measure dwd:design-time-name="1a56fde0-11a4-4e0f-95b1-371a124996ab">
           <ID>Vw Fact Sesiones Count</ID>
           <Name>Cantidad Sesiones</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="2177f3e9-7bb1-4599-a5a2-aa6089db1d71">
+          <Source dwd:design-time-name="38a7f676-eac0-4dd9-bab4-b94f757d454d">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="6d0224b4-a48a-44c7-9f2a-3eaac41936fd">
+            <Source xsi:type="RowBinding" dwd:design-time-name="5126a4c4-218a-45f6-8088-b9e838e9bc75">
               <TableID>dbo_vw_fact_sesiones</TableID>
             </Source>
           </Source>
+          <FormatString>#,##0</FormatString>
         </Measure>
       </Measures>
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5793ff2c-f8e6-4c47-9ac5-3532d7252efe">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="32f3f408-21b3-4ea5-a244-dea90ed620cb">
           <CubeDimensionID>Vw Dim Tiempo</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="fd601211-0a87-4ad8-a93a-91e22cfdc692">
+            <Attribute dwd:design-time-name="e786ae40-e7e0-4b3d-be2f-3549487a77d6">
               <AttributeID>Id Tiempo</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="e5098050-86c4-4172-af6a-6d4b00a51958">
+                <KeyColumn dwd:design-time-name="9297e6d5-28c4-4fe6-8f89-3709388417d0">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="707a88bc-2ec3-4d80-a211-67dc75131711">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="94cd6aeb-3567-4c05-aec0-9d69f99a6c0e">
                     <TableID>dbo_vw_fact_sesiones</TableID>
                     <ColumnID>id_tiempo</ColumnID>
                   </Source>
@@ -377,15 +333,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e349a789-688d-4d4a-ba33-c1c3f1496f5b">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b4ca19eb-0e82-4947-bf77-8ce13046dffe">
           <CubeDimensionID>Vw Dim Paciente</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="3a78d713-0691-430c-a1a0-b2e9a3a27966">
+            <Attribute dwd:design-time-name="390223e4-3bfd-437a-93a5-3e92a4c09332">
               <AttributeID>Id Paciente</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="a0f8df86-632d-42d1-83f1-dd50053dfe8b">
+                <KeyColumn dwd:design-time-name="26af348f-d26e-48c8-829c-cf6162979600">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0e8e1320-b1b1-402e-93ce-81f20666486d">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e30eeed0-f330-42ef-b0eb-1f9bbb541498">
                     <TableID>dbo_vw_fact_sesiones</TableID>
                     <ColumnID>id_paciente</ColumnID>
                   </Source>
@@ -395,15 +351,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="89d5193e-46bc-455e-9341-804d31808d23">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="9bc7cfa9-5e86-4f89-8014-31115ef26b50">
           <CubeDimensionID>Vw Dim Servicio</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="932c67f8-13b1-4784-9ab4-25b55f463707">
+            <Attribute dwd:design-time-name="ffd9e016-80a0-4474-999b-d579724dbf10">
               <AttributeID>Id Servicio</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="17f4ca99-a817-4322-a62f-ce06127759df">
+                <KeyColumn dwd:design-time-name="076c9d8b-d8d7-451e-80b4-75fb2f5c80c0">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9918652c-1466-4d7e-be1a-0d48874e941b">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="fc0757e8-d748-4bce-ab6e-ce376facecd3">
                     <TableID>dbo_vw_fact_sesiones</TableID>
                     <ColumnID>id_servicio</ColumnID>
                   </Source>
@@ -416,161 +372,41 @@
       </Dimensions>
       <Partitions />
     </MeasureGroup>
-    <MeasureGroup dwd:design-time-name="211ddad9-7fba-4023-ab96-801cc92770d6">
-      <ID>Vw Fact Uso Insumo</ID>
-      <Name>Uso Insumo</Name>
-      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-      <State>Unprocessed</State>
-      <Measures>
-        <Measure dwd:design-time-name="ea4354e8-75e3-4e9c-9bcd-5bb8de016371">
-          <ID>Cantidad Utilizada</ID>
-          <Name>Cantidad Utilizada</Name>
-          <Source dwd:design-time-name="9668f01a-1777-44b1-9f95-da6adc803f98">
-            <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="6fa7de00-06a8-4c8a-8149-20cd9fa68e2f">
-              <TableID>dbo_vw_fact_uso_insumo</TableID>
-              <ColumnID>cantidad_utilizada</ColumnID>
-            </Source>
-          </Source>
-        </Measure>
-        <Measure dwd:design-time-name="a94e1475-1380-445d-9b5e-7d1ea8262543">
-          <ID>Costo Registrado</ID>
-          <Name>Costo Insumos</Name>
-          <Source dwd:design-time-name="1a3d68cb-6c8a-4048-adf6-eccd021d666d">
-            <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="26950200-b749-48d2-beab-c8b01c9df28f">
-              <TableID>dbo_vw_fact_uso_insumo</TableID>
-              <ColumnID>costo_registrado</ColumnID>
-            </Source>
-          </Source>
-        </Measure>
-        <Measure dwd:design-time-name="96915010-587b-4750-88c1-9cc7d26a5f13">
-          <ID>Vw Fact Uso Insumo Count</ID>
-          <Name>Veces Usado</Name>
-          <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="0d97f7a7-4486-4da6-8938-7df8a181093d">
-            <DataType>Integer</DataType>
-            <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="2f9ed6ff-e0e4-4318-a2cc-df9e6ed14f52">
-              <TableID>dbo_vw_fact_uso_insumo</TableID>
-            </Source>
-          </Source>
-        </Measure>
-      </Measures>
-      <StorageMode>Molap</StorageMode>
-      <ProcessingMode>Regular</ProcessingMode>
-      <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5931da4c-b8fe-41cf-a0ea-d5fa87a86976">
-          <CubeDimensionID>Vw Dim Tiempo</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="51df51b0-2e62-42cb-b764-5e7301939968">
-              <AttributeID>Id Tiempo</AttributeID>
-              <KeyColumns>
-                <KeyColumn dwd:design-time-name="59f625ce-11cd-409f-85ec-e1ed9b2abb26">
-                  <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="09b04b17-f4b8-4749-92d2-ffda94b0f87a">
-                    <TableID>dbo_vw_fact_uso_insumo</TableID>
-                    <ColumnID>id_tiempo</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <Type>Granularity</Type>
-            </Attribute>
-          </Attributes>
-        </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1fa07d11-6024-41bf-9d49-06e3d18ddc1d">
-          <CubeDimensionID>Vw Dim Paciente</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="0dff0cd3-389f-40b8-9dad-bd7d7f72b36d">
-              <AttributeID>Id Paciente</AttributeID>
-              <KeyColumns>
-                <KeyColumn dwd:design-time-name="943a9662-18a1-4287-a38c-68dae8d7b441">
-                  <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3af0d707-66de-45cb-8a2c-0eb9a7b99f99">
-                    <TableID>dbo_vw_fact_uso_insumo</TableID>
-                    <ColumnID>id_paciente</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <Type>Granularity</Type>
-            </Attribute>
-          </Attributes>
-        </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b772e264-daf8-4070-8ad2-de6f6b46d2ec">
-          <CubeDimensionID>Vw Dim Servicio</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="689e7f7e-55be-489d-a5c2-028dcefdf871">
-              <AttributeID>Id Servicio</AttributeID>
-              <KeyColumns>
-                <KeyColumn dwd:design-time-name="164ceab9-554b-4cbb-b7be-cdfbabbcc68f">
-                  <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d27bb932-29c4-4a5e-8d07-c8efec963e04">
-                    <TableID>dbo_vw_fact_uso_insumo</TableID>
-                    <ColumnID>id_servicio</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <Type>Granularity</Type>
-            </Attribute>
-          </Attributes>
-        </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="02163c2f-f92e-4950-98af-68a414f56d59">
-          <CubeDimensionID>Vw Dim Insumo</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="20eb45d1-ed07-4dbe-9678-711bd8e9b644">
-              <AttributeID>Id Insumo</AttributeID>
-              <KeyColumns>
-                <KeyColumn dwd:design-time-name="a0fa94e3-beb8-4076-b14e-3f8641137740">
-                  <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c759ac67-da68-4f62-8475-7f70ad2d74a6">
-                    <TableID>dbo_vw_fact_uso_insumo</TableID>
-                    <ColumnID>id_insumo</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <Type>Granularity</Type>
-            </Attribute>
-          </Attributes>
-        </Dimension>
-      </Dimensions>
-      <Partitions />
-    </MeasureGroup>
-    <MeasureGroup dwd:design-time-name="5ee9cdc6-a5f8-4ed0-bb6b-ed200ebd1d46">
+    <MeasureGroup dwd:design-time-name="10cf2da1-8192-4f38-ba46-ad8aa011c9c7">
       <ID>Sesiones</ID>
       <Name>Pacientes Distintos</Name>
-      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="0ff40d52-ace9-418e-b48a-b4ee9469e159">
+        <Measure dwd:design-time-name="31787e27-93f0-433e-bbe9-ccdf47503a1b">
           <ID>Id Session Distinct Count</ID>
           <Name>Pacientes Atendidos</Name>
           <AggregateFunction>DistinctCount</AggregateFunction>
           <DataType>Integer</DataType>
-          <Source dwd:design-time-name="b2deb8a5-1bd1-418a-a899-f8650d1cdc8c">
+          <Source dwd:design-time-name="fdf08a88-af23-4145-83e2-a91793d30f5e">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="c9f0da96-6d6f-4b58-b91b-2a5a005bef18">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="3455593e-df2e-448c-b96d-be2da5427d56">
               <TableID>dbo_vw_fact_sesiones</TableID>
-              <ColumnID>id_session</ColumnID>
+              <ColumnID>id_paciente</ColumnID>
             </Source>
           </Source>
+          <FormatString>#,##0</FormatString>
         </Measure>
       </Measures>
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5b24f7ff-4a9e-4ada-b045-12b6fa87ec53">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e01e80d5-04d0-4716-bb4b-420ef8c0d6c2">
           <CubeDimensionID>Vw Dim Tiempo</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="56a27520-b869-4774-bca0-1dfca35829db">
+            <Attribute dwd:design-time-name="6a468644-85b0-4c16-b7cf-5e4f6ebc2426">
               <AttributeID>Id Tiempo</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="40e9c48c-25df-4a1d-8101-ff0c1d41b22f">
+                <KeyColumn dwd:design-time-name="9362cfdc-a88a-495a-9dc9-048048900a24">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7f5b864b-9085-4402-bba5-86232c93a081">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="093dc851-16db-440f-818c-a7750d0fc538">
                     <TableID>dbo_vw_fact_sesiones</TableID>
                     <ColumnID>id_tiempo</ColumnID>
                   </Source>
@@ -580,15 +416,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="01912f71-bab8-41f2-ab79-bcb4ddafb87b">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d6db4902-a906-4bc3-a5ce-74e97fb9ae24">
           <CubeDimensionID>Vw Dim Paciente</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="945db7e8-3c9a-4849-80c3-38fb6b67a51c">
+            <Attribute dwd:design-time-name="9f38061b-e792-4346-8c50-344f8042e78e">
               <AttributeID>Id Paciente</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="8a6d57f3-a266-4f5b-8224-d9e9c3a0c83b">
+                <KeyColumn dwd:design-time-name="a8d80b1e-59be-42b8-9154-71239545de03">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="49727d30-7e5f-445f-9739-31f00697d37d">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b975b6b7-a584-4e47-9547-4f62d56ce036">
                     <TableID>dbo_vw_fact_sesiones</TableID>
                     <ColumnID>id_paciente</ColumnID>
                   </Source>
@@ -598,117 +434,17 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="20b677a9-555c-4bec-b1e9-2eb12f965c72">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="6ee918ff-c804-41c8-bbb1-6ca3f9704c4c">
           <CubeDimensionID>Vw Dim Servicio</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="dec56eec-b9ff-4d43-911c-9d21bd6e6d2e">
+            <Attribute dwd:design-time-name="691a4714-a4e5-467d-9b9b-813c65941765">
               <AttributeID>Id Servicio</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="0fd2aa5a-d89d-4e8e-8ce4-4e5180acc4bc">
+                <KeyColumn dwd:design-time-name="a3cc044f-1540-43dd-8a7f-e5b8fc7573d7">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5eb9e31a-80c1-43ad-a762-6cc1dedb6d0b">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b37665c3-dfb6-45b7-9d8d-8a1e8f4b460f">
                     <TableID>dbo_vw_fact_sesiones</TableID>
                     <ColumnID>id_servicio</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <Type>Granularity</Type>
-            </Attribute>
-          </Attributes>
-        </Dimension>
-      </Dimensions>
-      <Partitions />
-    </MeasureGroup>
-    <MeasureGroup dwd:design-time-name="f4321f78-3b9e-434a-8cbb-645aaa2553b4">
-      <ID>Uso Insumo</ID>
-      <Name>Insumos Distintos</Name>
-      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-      <State>Unprocessed</State>
-      <Measures>
-        <Measure dwd:design-time-name="d421c6c3-a526-4966-bbb3-7b607486e3a5">
-          <ID>Id Insumo Distinct Count</ID>
-          <Name>Variedad Insumos</Name>
-          <AggregateFunction>DistinctCount</AggregateFunction>
-          <DataType>Integer</DataType>
-          <Source dwd:design-time-name="45488374-948b-42cc-9b2d-337d49b56cc7">
-            <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="93b409f7-c208-4297-ab9d-8953372d0b8f">
-              <TableID>dbo_vw_fact_uso_insumo</TableID>
-              <ColumnID>id_insumo</ColumnID>
-            </Source>
-          </Source>
-        </Measure>
-      </Measures>
-      <StorageMode>Molap</StorageMode>
-      <ProcessingMode>Regular</ProcessingMode>
-      <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d9c18194-fe80-463d-b41d-eb54d24d6af9">
-          <CubeDimensionID>Vw Dim Tiempo</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="db4da28b-c910-4d76-9e6a-1b3e9dc6b8f8">
-              <AttributeID>Id Tiempo</AttributeID>
-              <KeyColumns>
-                <KeyColumn dwd:design-time-name="551da4cf-76d9-4ffb-a187-90ad3f9dc0ad">
-                  <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f33f7f83-24e3-45a0-8381-526433cfa13e">
-                    <TableID>dbo_vw_fact_uso_insumo</TableID>
-                    <ColumnID>id_tiempo</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <Type>Granularity</Type>
-            </Attribute>
-          </Attributes>
-        </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="edca2c2c-b28a-4666-81ae-725f677e4334">
-          <CubeDimensionID>Vw Dim Paciente</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="5cc7358d-5aec-4ef7-a091-4011a493552f">
-              <AttributeID>Id Paciente</AttributeID>
-              <KeyColumns>
-                <KeyColumn dwd:design-time-name="e47a1a8d-702f-4e4e-97ea-d43d5d2f84e7">
-                  <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8641f471-87bd-4396-8e22-f2c48b53b8e2">
-                    <TableID>dbo_vw_fact_uso_insumo</TableID>
-                    <ColumnID>id_paciente</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <Type>Granularity</Type>
-            </Attribute>
-          </Attributes>
-        </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="2b6a60ca-3baf-4cda-90c4-dcc895c1565a">
-          <CubeDimensionID>Vw Dim Servicio</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="baf48880-f534-4345-9a44-dc6501c19564">
-              <AttributeID>Id Servicio</AttributeID>
-              <KeyColumns>
-                <KeyColumn dwd:design-time-name="90876c60-7066-416d-bd8a-4d3bb652f879">
-                  <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="40b22ea4-9dde-4992-830f-5f9157ac7420">
-                    <TableID>dbo_vw_fact_uso_insumo</TableID>
-                    <ColumnID>id_servicio</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <Type>Granularity</Type>
-            </Attribute>
-          </Attributes>
-        </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4d16961c-1cca-47fc-b364-c18dd0930093">
-          <CubeDimensionID>Vw Dim Insumo</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="42842650-0e8d-4928-a51e-f1688fa184ee">
-              <AttributeID>Id Insumo</AttributeID>
-              <KeyColumns>
-                <KeyColumn dwd:design-time-name="5c3bc3a0-759a-4216-9f0f-9996f6ab0faf">
-                  <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ec972a99-3141-4eab-82a7-a5d4d252afea">
-                    <TableID>dbo_vw_fact_uso_insumo</TableID>
-                    <ColumnID>id_insumo</ColumnID>
                   </Source>
                 </KeyColumn>
               </KeyColumns>
@@ -720,74 +456,163 @@
       <Partitions />
     </MeasureGroup>
   </MeasureGroups>
-  <Source dwd:design-time-name="7c984e8b-7752-4c7f-b32a-6fe43560b445">
+  <Source dwd:design-time-name="a24d2a9a-e96b-4a42-8f78-50976a06c021">
     <DataSourceViewID>DSV Terapia Fisica</DataSourceViewID>
   </Source>
   <MdxScripts>
-    <MdxScript dwd:design-time-name="6ac00885-e709-4a60-9d0e-7cdc4fd5c610">
+    <MdxScript dwd:design-time-name="817b1c24-e6fd-4ca5-b8ae-2cb29397935b">
       <ID>MdxScript</ID>
       <Name>MdxScript</Name>
-      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
       <Commands>
         <Command>
-          <Text>/* ===================================================================== SCRIPT DE CALCULOS DEL CUBO "Terapia Fisica"
+          <Text>/* =====================================================================
+   SCRIPT DE CALCULOS DEL CUBO "Terapia Fisica"
 
-Donde va: Cube Designer -&gt; pestana Calculations -&gt; boton "Script View" (icono de hoja con lineas). Reemplazar TODO el contenido por este script (el CALCULATE; inicial es obligatorio y debe quedar primero).
+   Donde va: Cube Designer -&gt; pestana Calculations -&gt; boton "Script View".
+   Seleccionar todo (Ctrl+A), borrar y pegar este script completo.
 
-Supone estos nombres (los de la guia): Medidas fisicas : [Ingreso], [Duracion Total], [Cantidad Sesiones], [Pacientes Nuevos], [Pacientes Atendidos], [Cantidad Utilizada], [Costo Insumos], [Veces Usado], [Variedad Insumos] Jerarquia tiempo: [Tiempo].[Calendario] con niveles [Anio] &gt; [Trimestre] &gt; [Mes] &gt; [Fecha] Si cambia algun nombre en el cubo, cambielo tambien aqui. El ultimo comando NO lleva ";": Visual Studio lo agrega al guardar. ===================================================================== */
+   Supone estos nombres (los de la guia):
+     Medidas fisicas : [Ingreso], [Duracion Total], [Cantidad Sesiones],
+                       [Pacientes Nuevos], [Pacientes Atendidos]
+     Jerarquia tiempo: [Tiempo].[Calendario] con niveles
+                       [Anio] &gt; [Trimestre] &gt; [Mes] &gt; [Fecha]
+     Atributo servicio: [Servicio].[Servicio]
+   Si cambia algun nombre en el cubo, cambielo tambien aqui.
+   Solo se usan comentarios de bloque: Visual Studio junta las lineas al
+   guardar y un comentario de linea taparia el codigo que le sigue.
+   El ultimo comando NO lleva ";": Visual Studio lo agrega al guardar.
+   ===================================================================== */
 
 CALCULATE;
 
-/* ---------- Ingresos (escenarios ix y x) ---------- */
+/* ---------- Ingresos (escenarios ix, x y xiv) ---------- */
 
-CREATE MEMBER CURRENTCUBE.[Measures].[Ingreso Promedio por Sesion] AS IIF([Measures].[Cantidad Sesiones] = 0, NULL, [Measures].[Ingreso] / [Measures].[Cantidad Sesiones]), FORMAT_STRING = "#,##0.00", VISIBLE = 1, ASSOCIATED_MEASURE_GROUP = 'Sesiones';
+CREATE MEMBER CURRENTCUBE.[Measures].[Ingreso Promedio por Sesion] AS
+    IIF([Measures].[Cantidad Sesiones] = 0, NULL,
+        [Measures].[Ingreso] / [Measures].[Cantidad Sesiones]),
+    FORMAT_STRING = "#,##0.00",
+    VISIBLE = 1,
+    ASSOCIATED_MEASURE_GROUP = 'Sesiones';
 
-CREATE MEMBER CURRENTCUBE.[Measures].[Duracion Promedio por Sesion] AS IIF([Measures].[Cantidad Sesiones] = 0, NULL, [Measures].[Duracion Total] / [Measures].[Cantidad Sesiones]), FORMAT_STRING = "#,##0.0", VISIBLE = 1, ASSOCIATED_MEASURE_GROUP = 'Sesiones';
+CREATE MEMBER CURRENTCUBE.[Measures].[Duracion Promedio por Sesion] AS
+    IIF([Measures].[Cantidad Sesiones] = 0, NULL,
+        [Measures].[Duracion Total] / [Measures].[Cantidad Sesiones]),
+    FORMAT_STRING = "#,##0.0",
+    VISIBLE = 1,
+    ASSOCIATED_MEASURE_GROUP = 'Sesiones';
 
-CREATE MEMBER CURRENTCUBE.[Measures].[Ingreso por Paciente] AS IIF([Measures].[Pacientes Atendidos] = 0, NULL, [Measures].[Ingreso] / [Measures].[Pacientes Atendidos]), FORMAT_STRING = "#,##0.00", VISIBLE = 1, ASSOCIATED_MEASURE_GROUP = 'Sesiones';
+CREATE MEMBER CURRENTCUBE.[Measures].[Ingreso por Paciente] AS
+    IIF([Measures].[Pacientes Atendidos] = 0, NULL,
+        [Measures].[Ingreso] / [Measures].[Pacientes Atendidos]),
+    FORMAT_STRING = "#,##0.00",
+    VISIBLE = 1,
+    ASSOCIATED_MEASURE_GROUP = 'Sesiones';
 
-/* Ingreso menos costo de insumos: rentabilidad por servicio (escenario x) */ CREATE MEMBER CURRENTCUBE.[Measures].[Margen Bruto] AS [Measures].[Ingreso] - CoalesceEmpty([Measures].[Costo Insumos], 0), FORMAT_STRING = "#,##0.00", VISIBLE = 1, ASSOCIATED_MEASURE_GROUP = 'Sesiones';
+/* Participacion de cada servicio o tipo en el ingreso total (escenario x) */
+CREATE MEMBER CURRENTCUBE.[Measures].[% del Ingreso Total] AS
+    IIF(([Measures].[Ingreso], [Servicio].[Servicio].[All]) = 0, NULL,
+        [Measures].[Ingreso] / ([Measures].[Ingreso], [Servicio].[Servicio].[All])),
+    FORMAT_STRING = "Percent",
+    VISIBLE = 1,
+    ASSOCIATED_MEASURE_GROUP = 'Sesiones';
 
-CREATE MEMBER CURRENTCUBE.[Measures].[% Margen] AS IIF([Measures].[Ingreso] = 0, NULL, [Measures].[Margen Bruto] / [Measures].[Ingreso]), FORMAT_STRING = "Percent", VISIBLE = 1, ASSOCIATED_MEASURE_GROUP = 'Sesiones';
+/* Participacion de cada servicio o tipo en el total de sesiones (escenario x) */
+CREATE MEMBER CURRENTCUBE.[Measures].[% de las Sesiones] AS
+    IIF(([Measures].[Cantidad Sesiones], [Servicio].[Servicio].[All]) = 0, NULL,
+        [Measures].[Cantidad Sesiones] / ([Measures].[Cantidad Sesiones], [Servicio].[Servicio].[All])),
+    FORMAT_STRING = "Percent",
+    VISIBLE = 1,
+    ASSOCIATED_MEASURE_GROUP = 'Sesiones';
 
 /* ---------- Pacientes (escenarios ii y iii) ---------- */
 
-CREATE MEMBER CURRENTCUBE.[Measures].[Pacientes Recurrentes] AS [Measures].[Pacientes Atendidos] - CoalesceEmpty([Measures].[Pacientes Nuevos], 0), FORMAT_STRING = "#,##0", VISIBLE = 1, ASSOCIATED_MEASURE_GROUP = 'Sesiones';
+CREATE MEMBER CURRENTCUBE.[Measures].[Pacientes Recurrentes] AS
+    [Measures].[Pacientes Atendidos] - CoalesceEmpty([Measures].[Pacientes Nuevos], 0),
+    FORMAT_STRING = "#,##0",
+    VISIBLE = 1,
+    ASSOCIATED_MEASURE_GROUP = 'Sesiones';
 
-/* Periodo anterior del MISMO nivel: mes anterior, trimestre anterior o anio anterior */ CREATE MEMBER CURRENTCUBE.[Measures].[Pacientes Periodo Anterior] AS ([Measures].[Pacientes Atendidos], [Tiempo].[Calendario].CurrentMember.PrevMember), FORMAT_STRING = "#,##0", VISIBLE = 1, ASSOCIATED_MEASURE_GROUP = 'Sesiones';
+/* Periodo anterior del MISMO nivel: mes anterior, trimestre anterior o anio anterior */
+CREATE MEMBER CURRENTCUBE.[Measures].[Pacientes Periodo Anterior] AS
+    ([Measures].[Pacientes Atendidos], [Tiempo].[Calendario].CurrentMember.PrevMember),
+    FORMAT_STRING = "#,##0",
+    VISIBLE = 1,
+    ASSOCIATED_MEASURE_GROUP = 'Sesiones';
 
-CREATE MEMBER CURRENTCUBE.[Measures].[% Crecimiento Pacientes] AS IIF(IsEmpty([Measures].[Pacientes Periodo Anterior]) OR [Measures].[Pacientes Periodo Anterior] = 0, NULL, ([Measures].[Pacientes Atendidos] - [Measures].[Pacientes Periodo Anterior]) / [Measures].[Pacientes Periodo Anterior]), FORMAT_STRING = "Percent", VISIBLE = 1, ASSOCIATED_MEASURE_GROUP = 'Sesiones';
+CREATE MEMBER CURRENTCUBE.[Measures].[% Crecimiento Pacientes] AS
+    IIF(IsEmpty([Measures].[Pacientes Periodo Anterior])
+        OR [Measures].[Pacientes Periodo Anterior] = 0, NULL,
+        ([Measures].[Pacientes Atendidos] - [Measures].[Pacientes Periodo Anterior])
+        / [Measures].[Pacientes Periodo Anterior]),
+    FORMAT_STRING = "Percent",
+    VISIBLE = 1,
+    ASSOCIATED_MEASURE_GROUP = 'Sesiones';
 
-/* Mismo periodo del anio anterior (anio contra anio) */ CREATE MEMBER CURRENTCUBE.[Measures].[Pacientes Anio Anterior] AS ([Measures].[Pacientes Atendidos], ParallelPeriod([Tiempo].[Calendario].[Anio], 1, [Tiempo].[Calendario].CurrentMember)), FORMAT_STRING = "#,##0", VISIBLE = 1, ASSOCIATED_MEASURE_GROUP = 'Sesiones';
+/* Mismo periodo del anio anterior (anio contra anio) */
+CREATE MEMBER CURRENTCUBE.[Measures].[Pacientes Anio Anterior] AS
+    ([Measures].[Pacientes Atendidos],
+     ParallelPeriod([Tiempo].[Calendario].[Anio], 1, [Tiempo].[Calendario].CurrentMember)),
+    FORMAT_STRING = "#,##0",
+    VISIBLE = 1,
+    ASSOCIATED_MEASURE_GROUP = 'Sesiones';
 
-CREATE MEMBER CURRENTCUBE.[Measures].[% Crecimiento Pacientes AA] AS IIF(IsEmpty([Measures].[Pacientes Anio Anterior]) OR [Measures].[Pacientes Anio Anterior] = 0, NULL, ([Measures].[Pacientes Atendidos] - [Measures].[Pacientes Anio Anterior]) / [Measures].[Pacientes Anio Anterior]), FORMAT_STRING = "Percent", VISIBLE = 1, ASSOCIATED_MEASURE_GROUP = 'Sesiones';
+CREATE MEMBER CURRENTCUBE.[Measures].[% Crecimiento Pacientes AA] AS
+    IIF(IsEmpty([Measures].[Pacientes Anio Anterior])
+        OR [Measures].[Pacientes Anio Anterior] = 0, NULL,
+        ([Measures].[Pacientes Atendidos] - [Measures].[Pacientes Anio Anterior])
+        / [Measures].[Pacientes Anio Anterior]),
+    FORMAT_STRING = "Percent",
+    VISIBLE = 1,
+    ASSOCIATED_MEASURE_GROUP = 'Sesiones';
 
 /* ---------- Tendencia de sesiones e ingresos (escenario xi) ---------- */
 
-CREATE MEMBER CURRENTCUBE.[Measures].[% Crecimiento Sesiones] AS IIF(IsEmpty(([Measures].[Cantidad Sesiones], [Tiempo].[Calendario].CurrentMember.PrevMember)) OR ([Measures].[Cantidad Sesiones], [Tiempo].[Calendario].CurrentMember.PrevMember) = 0, NULL, ([Measures].[Cantidad Sesiones] - ([Measures].[Cantidad Sesiones], [Tiempo].[Calendario].CurrentMember.PrevMember)) / ([Measures].[Cantidad Sesiones], [Tiempo].[Calendario].CurrentMember.PrevMember)), FORMAT_STRING = "Percent", VISIBLE = 1, ASSOCIATED_MEASURE_GROUP = 'Sesiones';
+CREATE MEMBER CURRENTCUBE.[Measures].[% Crecimiento Sesiones] AS
+    IIF(IsEmpty(([Measures].[Cantidad Sesiones], [Tiempo].[Calendario].CurrentMember.PrevMember))
+        OR ([Measures].[Cantidad Sesiones], [Tiempo].[Calendario].CurrentMember.PrevMember) = 0, NULL,
+        ([Measures].[Cantidad Sesiones]
+         - ([Measures].[Cantidad Sesiones], [Tiempo].[Calendario].CurrentMember.PrevMember))
+        / ([Measures].[Cantidad Sesiones], [Tiempo].[Calendario].CurrentMember.PrevMember)),
+    FORMAT_STRING = "Percent",
+    VISIBLE = 1,
+    ASSOCIATED_MEASURE_GROUP = 'Sesiones';
 
-CREATE MEMBER CURRENTCUBE.[Measures].[% Crecimiento Ingreso] AS IIF(IsEmpty(([Measures].[Ingreso], [Tiempo].[Calendario].CurrentMember.PrevMember)) OR ([Measures].[Ingreso], [Tiempo].[Calendario].CurrentMember.PrevMember) = 0, NULL, ([Measures].[Ingreso] - ([Measures].[Ingreso], [Tiempo].[Calendario].CurrentMember.PrevMember)) / ([Measures].[Ingreso], [Tiempo].[Calendario].CurrentMember.PrevMember)), FORMAT_STRING = "Percent", VISIBLE = 1, ASSOCIATED_MEASURE_GROUP = 'Sesiones';
+CREATE MEMBER CURRENTCUBE.[Measures].[% Crecimiento Ingreso] AS
+    IIF(IsEmpty(([Measures].[Ingreso], [Tiempo].[Calendario].CurrentMember.PrevMember))
+        OR ([Measures].[Ingreso], [Tiempo].[Calendario].CurrentMember.PrevMember) = 0, NULL,
+        ([Measures].[Ingreso]
+         - ([Measures].[Ingreso], [Tiempo].[Calendario].CurrentMember.PrevMember))
+        / ([Measures].[Ingreso], [Tiempo].[Calendario].CurrentMember.PrevMember)),
+    FORMAT_STRING = "Percent",
+    VISIBLE = 1,
+    ASSOCIATED_MEASURE_GROUP = 'Sesiones';
 
-/* Ingreso acumulado del anio (Year To Date) */ CREATE MEMBER CURRENTCUBE.[Measures].[Ingreso Acumulado Anio] AS Aggregate(PeriodsToDate([Tiempo].[Calendario].[Anio], [Tiempo].[Calendario].CurrentMember), [Measures].[Ingreso]), FORMAT_STRING = "#,##0.00", VISIBLE = 1, ASSOCIATED_MEASURE_GROUP = 'Sesiones';
-
-/* ---------- Insumos (escenarios xv, xvi, xviii) ---------- */
-
-CREATE MEMBER CURRENTCUBE.[Measures].[Costo Insumos por Sesion] AS IIF([Measures].[Cantidad Sesiones] = 0, NULL, [Measures].[Costo Insumos] / [Measures].[Cantidad Sesiones]), FORMAT_STRING = "#,##0.00", VISIBLE = 1, ASSOCIATED_MEASURE_GROUP = 'Uso Insumo';
+/* Ingreso acumulado del anio (Year To Date) */
+CREATE MEMBER CURRENTCUBE.[Measures].[Ingreso Acumulado Anio] AS
+    Aggregate(PeriodsToDate([Tiempo].[Calendario].[Anio],
+                            [Tiempo].[Calendario].CurrentMember),
+              [Measures].[Ingreso]),
+    FORMAT_STRING = "#,##0.00",
+    VISIBLE = 1,
+    ASSOCIATED_MEASURE_GROUP = 'Sesiones';
 
 /* ---------- Conjuntos con nombre ---------- */
 
-/* Escenario viii: los 6 meses mas recientes con sesiones */ CREATE DYNAMIC SET CURRENTCUBE.[Ultimos 6 Meses] AS Tail(NonEmpty([Tiempo].[Calendario].[Mes].Members, [Measures].[Cantidad Sesiones]), 6);
+/* Escenario viii: los 6 meses mas recientes con sesiones */
+CREATE DYNAMIC SET CURRENTCUBE.[Ultimos 6 Meses] AS
+    Tail(NonEmpty([Tiempo].[Calendario].[Mes].Members,
+                  [Measures].[Cantidad Sesiones]), 6);
 
-/* Escenario vi: servicios con mayor y menor demanda en el contexto actual */ CREATE DYNAMIC SET CURRENTCUBE.[Top 5 Servicios] AS TopCount([Servicio].[Servicio].[Servicio].Members, 5, [Measures].[Cantidad Sesiones]);
+/* Escenario vi: servicios con mayor y menor demanda en el contexto actual */
+CREATE DYNAMIC SET CURRENTCUBE.[Top 5 Servicios] AS
+    TopCount([Servicio].[Servicio].[Servicio].Members, 5, [Measures].[Cantidad Sesiones]);
 
-CREATE DYNAMIC SET CURRENTCUBE.[Bottom 5 Servicios] AS BottomCount(NonEmpty([Servicio].[Servicio].[Servicio].Members, [Measures].[Cantidad Sesiones]), 5, [Measures].[Cantidad Sesiones]);
-
-/* Escenario xvi: insumos mas y menos usados */ CREATE DYNAMIC SET CURRENTCUBE.[Top 10 Insumos] AS TopCount([Insumo].[Insumo].[Insumo].Members, 10, [Measures].[Veces Usado]);
-
-CREATE DYNAMIC SET CURRENTCUBE.[Bottom 10 Insumos] AS BottomCount(NonEmpty([Insumo].[Insumo].[Insumo].Members, [Measures].[Veces Usado]), 10, [Measures].[Veces Usado])
-
-; </Text>
+CREATE DYNAMIC SET CURRENTCUBE.[Bottom 5 Servicios] AS
+    BottomCount(NonEmpty([Servicio].[Servicio].[Servicio].Members,
+                         [Measures].[Cantidad Sesiones]),
+                5, [Measures].[Cantidad Sesiones])</Text>
         </Command>
       </Commands>
     </MdxScript>

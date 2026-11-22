@@ -1,0 +1,13 @@
+# Cache e indices de Visual Studio (propios de cada computadora)
+.vs/
+
+# Salidas de compilacion de los proyectos de Analysis Services / SSIS
+bin/
+obj/
+
+# Archivos de usuario de Visual Studio
+*.user
+*.suo
+
+# Archivos temporales de Office (aparecen mientras el Word esta abierto)
+~$*

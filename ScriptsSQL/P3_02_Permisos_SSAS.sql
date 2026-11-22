@@ -1,5 +1,5 @@
 /* =====================================================================
-   PROYECTO 3 - PASO 3: PERMISO DE LECTURA PARA ANALYSIS SERVICES
+   PROYECTO 3 - PASO 2: PERMISO DE LECTURA PARA ANALYSIS SERVICES
 
    Al procesar el cubo, Analysis Services se conecta a DW_TerapiaFisica
    con la cuenta de su servicio (opcion "Use the service account" del

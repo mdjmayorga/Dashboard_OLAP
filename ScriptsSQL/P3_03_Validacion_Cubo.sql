@@ -1,5 +1,5 @@
 /* =====================================================================
-   PROYECTO 3 - PASO 4: NUMEROS DE CONTROL PARA VALIDAR EL CUBO
+   PROYECTO 3 - PASO 3: NUMEROS DE CONTROL PARA VALIDAR EL CUBO
 
    Correr despues de procesar el cubo y comparar cada resultado con lo
    que muestra el Browser del cubo (o Excel). Si coinciden, el cubo esta
@@ -45,20 +45,7 @@ FROM dbo.fact_sessions f
 JOIN dbo.dim_paciente p ON p.id_paciente = f.id_paciente
 GROUP BY p.provincia ORDER BY ingreso DESC;
 
--- 6. Insumos: usos, cantidad y costo por tipo  (Insumo.Tipo Insumo)
-SELECT i.tipo, COUNT(*) AS veces_usado, SUM(b.cantidad_utilizada) AS cantidad,
-       SUM(b.costo_registrado) AS costo
-FROM dbo.bridge_sesion_insumo b
-JOIN dbo.dim_insumo i ON i.id_insumo = b.id_insumo
-GROUP BY i.tipo ORDER BY veces_usado DESC;
-
--- 7. Variedad de insumos por servicio  (medida Variedad Insumos x Servicio)
-SELECT TOP 10 s.nombre_servicio, COUNT(DISTINCT b.id_insumo) AS variedad_insumos
-FROM dbo.bridge_sesion_insumo b
-JOIN dbo.dim_servicio s ON s.id_servicio = b.id_servicio
-GROUP BY s.nombre_servicio ORDER BY variedad_insumos DESC;
-
--- 8. Ingreso de los ultimos 6 meses por tipo de servicio  (atributo Periodo Reciente)
+-- 6. Ingreso de los ultimos 6 meses por tipo de servicio  (atributo Periodo Reciente)
 SELECT s.tipo_servicio, SUM(f.monto_ingreso) AS ingreso_ult_6_meses
 FROM dbo.fact_sessions f
 JOIN dbo.vw_dim_tiempo t ON t.id_tiempo = f.id_tiempo
